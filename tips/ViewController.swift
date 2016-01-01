@@ -14,11 +14,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Default text labels
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+        
+        //Sets title in Navigation Bar
+        self.title = "Tip Calculator"
+        
     }
 
     override func didReceiveMemoryWarning() {

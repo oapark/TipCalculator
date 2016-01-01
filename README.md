@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/Hgpu0DB.gif?1' title='Basic Tip Calculator Video Walkthrough' width='' alt='Basic Tip Calculator Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -45,7 +45,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2015] [Oaggin Park]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -71,5 +71,5 @@ Resources
 * LICEcap GIF screen capture: http://www.cockos.com/licecap/
 * Online documentation: http://docs.writethedocs.org/writing/beginners-guide-to-docs/
 * Xcode to GitHub (StackOverflow): http://stackoverflow.com/questions/5383609/using-git-with-an-existing-xcode-project/32498035#32498035
-
+* Adding gitignore: https://github.com/blog/1327-creating-files-on-github
 

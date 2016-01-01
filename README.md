@@ -71,5 +71,5 @@ Resources
 * LICEcap GIF screen capture: http://www.cockos.com/licecap/
 * Online documentation: http://docs.writethedocs.org/writing/beginners-guide-to-docs/
 * Xcode to GitHub (StackOverflow): http://stackoverflow.com/questions/5383609/using-git-with-an-existing-xcode-project/32498035#32498035
-
+* Adding gitignore: https://github.com/blog/1327-creating-files-on-github
 

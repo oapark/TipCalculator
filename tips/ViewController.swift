@@ -28,7 +28,41 @@ class ViewController: UIViewController {
         //Sets title in Navigation Bar
         self.title = "Tip Calculator"
         billField.becomeFirstResponder()
+        
+        
+//        //saving keys to NSUserDefaults
+//        let defaults = NSUserDefaults.standardUserDefaults()
+//        defaults.setDouble(0.2, forKey: "default_tip_percentage")
+//        defaults.synchronize()
+        
     }
+    
+    //View *Appear()
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        print("View will appear")
+        // This is a good place to retrieve the default tip percentage from NSUserDefaults
+        // and use it to update the tip amount
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        print("View did appear")
+        
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("View will disappear")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("view did disappear")
+    }
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -59,11 +93,7 @@ class ViewController: UIViewController {
         totalLabel.text = String(format: "$%.2f", total)
         
     }
-    //triggered by tapping on the screen
-    @IBAction func onTap(sender: AnyObject) {
-        //dismisses keyboard
-        view.endEditing(true)
-    }
+
     
 
 }

@@ -16,9 +16,11 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tipsEditField.becomeFirstResponder()
-        // Do any additional setup after loading the view.
 
+        // Do any additional setup after loading the view.
+        var temp = "Butt"
+        
+        tipSelectionControl.setTitle(temp, forSegmentAtIndex: 0)
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,17 +28,21 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //triggered when user selects segment
+    //selecting segment will cause tip percentage to appear in the text editor
     @IBAction func onTipsEditingChanged(sender: AnyObject) {
         //TESTING
         var tipSelectedIndex = tipSelectionControl.selectedSegmentIndex;
         var defaultTipPercentages = [0.18, 0.2, 0.22]
         var defaultTipPercentage = defaultTipPercentages[tipSelectionControl.selectedSegmentIndex]
-        
+
         //on tipSelectionControl UISegmentedControl value change, update previously selected defaultTip and update the UITextField tipsEditField to newly defaultTipPercentage
         //on tipSelectionControl UISegmentedControl value change, update previously selected defaultTip label
-        var newTipPercentage = NSString(string: tipsEditField.text!).doubleValue
+//        var newTipPercentage = NSString(string: tipsEditField.text!).doubleValue
         //steps
         //select segment: triggers selected index to show in the textfield
+        
+        
         
         
         print("Updating tip defaults: \(defaultTipPercentage)")

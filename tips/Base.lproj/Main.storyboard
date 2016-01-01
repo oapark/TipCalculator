@@ -77,9 +77,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="6q5-OK-oEJ" appends="YES" id="9ja-DA-n6k"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="aqU-Bu-UGi">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="2f3-fD-tIN">
@@ -96,11 +93,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="6q5-OK-oEJ">
-                    <connections>
-                        <action selector="onTap:" destination="BYZ-38-t0r" id="DAK-1j-jnA"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="766" y="368"/>
         </scene>
@@ -143,9 +135,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <action selector="onTipsEditingChanged:" destination="lHu-nV-NWb" eventType="editingChanged" id="cDz-Jd-8ou"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0cN-Vm-l2H">
                                 <rect key="frame" x="195" y="234" width="18" height="30"/>

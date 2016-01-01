@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         //Sets title in Navigation Bar
         self.title = "Tip Calculator"
-        
+        billField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
